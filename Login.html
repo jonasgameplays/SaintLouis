@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Wild Calçados</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b4e4ff;
+            color: #FFFFFF;
+        }
+
+        h1 {
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        form {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #fa1010;
+            color: #FFFFFF;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: #FF0000;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        .rodape {
+            padding: 50px 50px 0;
+        }
+
+        .rodape .container #logo-rodape img {
+            height: 50%;
+            width: 50%;
+            padding-left: 10px;
+            transition: transform.3s;
+            display: block;
+        }
+
+        .rodape .container #logo-rodape:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .rodape .info-contato p {
+            margin: 0;
+        }
+
+        .rodape .linkFooter {
+            text-decoration: none;
+            color: #000;
+            font-size: 13px;
+            margin-left: 0.7rem;
+        }
+
+        .rodape .linkFooter:hover {
+            font-weight: bold;
+        }
+
+        .rodape .redes-sociais {
+            display: inline-block;
+        }
+
+        .rodape .redes-sociais img {
+            width: 50px;
+            height: 50px;
+            padding-left: 0;
+            margin-left: 0.8rem;
+            transition: transform .3s;
+            border-radius: 15px;
+        }
+
+        .rodape .redes-sociais img:hover {
+            z-index: 1;
+            transform: scale(1.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
+        }
+
+        .rodape p.direitos {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .Cadastre-se {
+        font-family:"Times New Roman", Times, serif;
+        font-size:22px;
+        border-radius:0px;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:30px;
+        padding-bottom:0px;
+        color:#ff0000;
+        background-color:#000000;
+        cursor:pointer;
+        display:inline-block;
+        text-decoration: none;
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <center><a id="logo" href="./Inicial.html"><img src="./IMG/logo.png" alt="Logo" class="Logo" width="10%"></a></center>
+        
+    </div>
+    <h1>Login - Wild Calçados</h1>
+    <form id="cadastroClien">
+        <label for="txtEmail">Email:</label>
+        <input type="text" id="txtEmail"><br>
+        <label for="txtSenha">Senha:</label>
+        <input type="password" id="txtSenha"><br>
+        <button onclick="fazerLogin()">Login</button>
+        <div class="Cadastre-se">
+            <a href="./Cadastro.html" class="button">Cadastre-se</a>
+        </div>        
+    </form>
+    <!-- Inicio footer -->
+    <center><footer class="rodape">
+        <div class="container">
+            <div class="row m-0">
+               
+                <!-- Inicio Texto -->
+                <div class="col-md-4">
+                    <div class="info-contato">
+                        <strong>Email: </strong>
+                        yvessaintLouis01@gmail.com/
+                        <strong>Endereço: </strong>
+                        Av. Brasil, 1400/
+                        <strong>Telefone: </strong>
+                        +55 15 2775-0321/</p>
+                    </div>
+                </div>
+                <!-- Fim Texto -->
+                <!-- Inicio Mídias sociais -->
+                <div class="col-md-4">
+                    <center><figure class="redes-sociais">
+                        <a href="https://facebook.com"><img src="./IMG/redes_sociais/face.png" alt="Facebook"></a>
+                        <a href="https://instagram.com"><img src="./IMG/redes_sociais/insta.jpeg" alt="Instagram"></a>
+                        <a href="https://youtube.com"><img src="./IMG/redes_sociais/youtube.png" alt="Youtube"></a>
+                        <a href="https://whatsapp.com"><img src="./IMG/redes_sociais/whats.png" alt="WhatsApp"></a>
+                    </figure></center>
+
+                </div>
+                <!-- Fim Mídias sociais -->
+                <!-- Inicio direitos autorais -->
+                <div class="col-12">
+                    <p class="direitos">Todos os Direitos Reservados &copy; Saint Louis</p>
+                </div>
+                <!-- Fim direitos autorais -->
+            </div>
+        </div>
+    </footer>
+    <!-- Fim footer -->
+</body>
+<script src="Login.js"></script>
+</html>
