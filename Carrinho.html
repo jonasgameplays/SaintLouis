@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - Yves saint louis</title>
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#b4e4ff ;
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .cart-item {
+            display: flex;
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #FFFFFF;
+            background-color: #fff;
+        }
+
+        .cart-item img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .cart-item p {
+            color: #000000;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .cart-item h3 {
+            text-align: center;
+            margin: 0;
+        }
+
+        .cart-item button {
+            background-color: #b4e4ff;
+            color: #000000;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .cart-total {
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        .cart-total h2 {
+            color: #FFFFFF;
+        }
+
+        .cart-total a {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .cart-total a:hover {
+            background-color: #fff;
+            color: #333;
+        }
+
+        .rodape {
+            padding: 50px 50px 0;
+        }
+
+        .rodape .container #logo-rodape img {
+            height: 50%;
+            width: 50%;
+            padding-left: 10px;
+            transition: transform.3s;
+            display: block;
+        }
+
+        .rodape .container #logo-rodape:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        .rodape .info-contato p {
+            margin: 0;
+        }
+
+        .rodape .linkFooter {
+            text-decoration: none;
+            color: #000;
+            font-size: 13px;
+            margin-left: 0.7rem;
+        }
+
+        .rodape .linkFooter:hover {
+            font-weight: bold;
+        }
+
+        .rodape .redes-sociais {
+            display: inline-block;
+        }
+
+        .rodape .redes-sociais img {
+            width: 50px;
+            height: 50px;
+            padding-left: 0;
+            margin-left: 0.8rem;
+            transition: transform .3s;
+            border-radius: 15px;
+        }
+
+        .rodape .redes-sociais img:hover {
+            z-index: 1;
+            transform: scale(1.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
+        }
+
+        .rodape p.direitos {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+    </div>
+
+    <div class="container">
+
+        <center><a id="logo" href="./Inicial.html"><img src="./IMG/logo.png" alt="Logo" class="Logo" width="10%"></a></center>
+    <div class="nav">
+        <a href="./Inicial.html">Inicial</a>
+        <a href="./Catalogo.html">Catalogo</a>
+        <a href="./Contato.html">Contato</a>
+        <a href="./Entrega.html">História</a>
+        <a href="./Cadastro.html">Cadastro</a>
+
+        <a href="./Carrinho.html"><img src="./IMG/pngwing.com (11).png" alt="Aproveite" width="50px" height="50px"></a>
+    </div>
+
+        <div class="cart-item">
+            <img src="./IMG/perfume4.jpg" alt="Perfume 4" width="50px" height="100px">
+            <div>
+                <p style="color:rgb(0, 0, 0);">Black Opium Eau de Parfum</p>
+                <h3>.</h3>
+                <p>R$ 999,99</p>
+                <button>Remover do Carrinho</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="./IMG/perfume3.jpg" alt="Y Le Parfum Yves Saint Laurent Eau de Parfum" width="50px" height="100px">
+            <div>
+                <p style="color:rgb(0, 0, 0);">Y Le Parfum Yves Saint Laurent Eau de Parfum</p>
+                <h3>.</h3>
+                <p>R$ 799,99</p>
+                <button>Remover do Carrinho</button>
+            </div>
+        </div>
+
+
+        <div class="cart-total">
+            <h2>Total do Carrinho: R$ 1.799,98</h2>
+            <a href="./Pagar.html">Finalizar Compra</a>
+        </div>
+    </div>
+
+
+     <center><footer class="rodape">
+        <div class="container">
+            <div class="row m-0">
+               
+
+                <div class="col-md-4">
+                    <div class="info-contato">
+                        <strong>Email: </strong>
+                        yvessaintLouis01@gmail.com/
+                        <strong>Endereço: </strong>
+                        Av. Brasil, 1400/
+                        <strong>Telefone: </strong>
+                        +55 15 2775-0321</p>
+                    </div>
+                </div>
+                <!-- Fim Texto -->
+                <!-- Inicio Mídias sociais -->
+                <div class="col-md-4">
+                    <center><figure class="redes-sociais">
+                        <a href="https://facebook.com"><img src="./IMG/redes_sociais/face.png" alt="Facebook"></a>
+                        <a href="https://instagram.com"><img src="./IMG/redes_sociais/insta.jpeg" alt="Instagram"></a>
+                        <a href="https://youtube.com"><img src="./IMG/redes_sociais/youtube.png" alt="Youtube"></a>
+                        <a href="https://whatsapp.com"><img src="./IMG/redes_sociais/whats.png" alt="WhatsApp"></a>
+                    </figure></center>
+
+                </div>
+                <!-- Fim Mídias sociais -->
+                <!-- Inicio direitos autorais -->
+                <div class="col-12">
+                    <p class="direitos">Todos os Direitos Reservados &copy; Saint Louis</p>
+                </div>
+                <!-- Fim direitos autorais -->
+            </div>
+        </div>
+    </footer>
+    <!-- Fim footer -->
+</body>
+<script src="script.js"></script>
+</html>
+
