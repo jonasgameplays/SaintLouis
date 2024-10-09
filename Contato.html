@@ -1,70 +1,104 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Wild</title>
-    <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <title>WILD CALÇADOS - Contato</title>
+    <link rel="shortcut icon" type="imagex/png" href="./IMG/logo.png">
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #b4e4ff;
             color: #FFFFFF;
         }
-
         h1 {
             text-align: center;
             color: #FFFFFF;
         }
-
         .logo {
-            width: 500px;
-            height: 240px;
+            width: 300px;
+            height: 140px;
         }
-
         .nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
-
         }
-
         .nav a {
             color: #FFFFFF;
             text-decoration: none;
         }
-
         .container {
-            width: 80%;
+            width: 70%;
             margin: 0 auto;
         }
-
         .product {
             display: inline-block;
             width: 100%;
             margin: 10px;
             padding: 10px;
             border: 1px solid #FFFFFF;
-            background-color: #ffffff;
+            background-color: #fa1010;
         }
-
         .product img {
             width: 100%;
             height: auto;
         }
-
         .product h3 {
             text-align: center;
             margin: 0;
         }
-
         .product p {
             text-align: center;
             color: #FF0000;
             font-weight: bold;
         }
-
+        .contact-form label, .contact-form input, .contact-form textarea {
+            margin-left:-200px;
+            display:block;
+            margin-bottom: 10px;
+            color: #efeaea;
+        }
+        .contact-form textarea {
+            height: 10px;
+        }
+        h2 {
+            margin-left:37%;
+        }
+         /* Inicio estilo contato */
+  .contact {
+    padding: 70px;
+    background: black;
+  }
+  .section-title h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #000;
+    padding-bottom: 10px;
+    display: inline-block;
+  }
+  .section p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+  }
+  .contact input,
+  .contact textarea {
+    background: #fafafa;
+  }
+  .contact textarea {
+    min-height: 300px;
+    max-width: 400%;
+  }
+  .contact .map {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 70%;
+  }
+  /* Fim estilo contato */
         .rodape {
             padding: 50px 50px 0;
         }
@@ -73,13 +107,13 @@
             height: 50%;
             width: 50%;
             padding-left: 10px;
-            transition: transform.3s;
+            transition: transform .3s;
             display: block;
         }
 
         .rodape .container #logo-rodape:hover {
             transform: scale(1.1);
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         .rodape .info-contato p {
@@ -121,26 +155,31 @@
             margin-top: 40px;
         }
 
+        .contato{
+            text-align: center;
+            margin-right: 30%;
+        }
+       
     </style>
 </head>
-
 <body>
     <center><a id="logo" href="./Inicial.html"><img src="./IMG/logo.png" alt="Logo" class="Logo" width="10%"></a></center>
     <div class="nav">
         <a href="./Inicial.html">Inicial</a>
         <a href="./Catalogo.html">Catalogo</a>
         <a href="./Contato.html">Contato</a>
-        <a href="./His.html">História</a>
+        <a href="./Entrega.html">História</a>
         <a href="./Cadastro.html">Cadastro</a>
 
-        <a href="./Carrinho.html"><img src="./IMG/pngwing.com (11).png" alt="Aproveite" width="50px" height="50px"></a>
     </div>
     <div class="container">
-        <div class="product">
-            <a href="./Catalogo.html"><img src="./IMG/banner1.png" alt="Pesquisar"></a>
-        </div>
-    </div>
+        <div class="contact-form">
+            <h2>Entre em Contato com a Loja</h2>
+
+            <div class="contato"><h2>Pode entrar em contato diretamente com nossa equipe acessando o nosso email no fim da página, tanto como nossas redes sociais,nosso número de telefone e nosso endereço</h2></div>
+    <br>
     <p></p>
+    <br>
     <!-- Inicio footer -->
     <center><footer class="rodape">
         <div class="container">
