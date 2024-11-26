@@ -48,7 +48,7 @@ window.onload=()=>{
         '<p style="color:rgb(221, 217, 217);">'+'</p>'+
         '<h3>'+nome+'</h3>'+
         '<p>R$ '+preco+'</p>'+
-        '<center><a class="btn-banner" href="./Produto.html?id='+cod+'" target="_blank">Comprar</a></center>';
+        '<center><a class="btn-banner" href="./Produto0.html?id='+cod+'" target="_blank">Comprar</a></center>';
         resultado.appendChild(produto);
         //cria vetor para carregar fotos
     }
